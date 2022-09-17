@@ -16,13 +16,13 @@ const ScreenTwo = ({navigation}) => {
   const fields = useSelector(state => state.username);
   const [username, setUsername] = useState(fields.username);
   const clickedBtnOne = () => {
-    alert('User clicked button 1');
+    alert(username + ' clicked button 1');
   };
   const clickedBtnTwo = () => {
-    alert('User clicked button 2');
+    alert(username + ' clicked button 2');
   };
   const clickedBtnThree = () => {
-    alert('User clicked button 3');
+    alert(username + ' clicked button 3');
   };
   const navigateToScreen3 = () => {
     navigation.navigate('ScreenThree');

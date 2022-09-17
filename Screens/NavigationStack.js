@@ -19,7 +19,7 @@ const AppStackScreen = () => {
       <appStack.Navigator
         initialRouteName="ScreenOne"
         screenOptions={({navigation}) => ({
-          headerBackTitle: 'Atleast its working ',
+          headerBackTitle: '',
         })}>
         <appStack.Screen name="ScreenOne" component={ScreenOne} />
 
